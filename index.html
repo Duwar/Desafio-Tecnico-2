@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duwar Rippe - Portafolio Personal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <header id="inicio">
+        <div class="container">
+            <nav class="nav">
+                <div class="title">
+                    <img class="logo" src="./img/Logo.png" alt="Logo">
+                    <h1> I´m Alex Rippe</h1>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#proyectos" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#habilidades" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="descripcion">
+            <p>I am a telecommunications engineer. I am interested in creating digital experiences, especially in the
+                world of self-management.</p>
+            <div class="circle">
+                <a href="./about.html"><img src="./img/sin fondo.png" alt="foto de perfil de Alex" class="profile-pic"></a>
+
+            </div>
+        </section>
+        <h2 id="proyectos">My Projects</h2>
+        <section>
+            <div class="project-grid">
+                <article class="project-item">
+                    <div class="face front">
+                        <img class="projectimg1" src="./img/Carpinteria.jpg" alt="Project Carpentry">
+                    </div>
+                    <div class="face back">
+                        <h3>The Carpentry</h3>
+                        <p>Looking for the perfect furniture for your space and style? MuebleIdeal is the web platform transforming custom furniture shopping. Design in 2D/3D, adjusting dimensions, materials, colors, and accessories. Get instant quotes, connect with local artisans, and create unique pieces. Get inspired by the community and bring your ideal furniture to life!</p>
+                        <a class="nav-link" href="#" target="_blank">See Project</a>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="face front">
+                        <img class="projectimg2" src="./img/Ford_Mustang.jpg" alt="Project Car dealership">
+                    </div>
+                    <div class="face back">
+                        <h3>Car dealership</h3>
+                        <p>This project was developed with inspiration from racing video games, aiming to create a
+                            visual
+                            experience that pays homage to those titles. My main goal was to showcase a carefully
+                            selected
+                            array of cars that have always fascinated me.
+
+                            Though color selection was a challenge, I focused on achieving an aesthetic and balanced
+                            design.
+                            I prioritized a smooth and pleasant user experience, avoiding any visual clutter. The result
+                            is
+                            still under evaluation...</p>
+                        <a class="nav-link"
+                            href="https://github.com/Duwar/Desafio_Tecnico_1/tree/main/pagina-informativa"
+                            target="_blank">See Project</a>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="face front">
+                        <img class="projectimg3" src="./img/motoversus.png" alt="Project Motoversus 3">
+                    </div>
+                    <div class="face back">
+                        <h3>Motoversus</h3>
+                        <p>Meet Motoversus, the ultimate tool for comparing motorcycles. Whether you're a pro or a beginner, easily compare bikes from various brands based on key features like performance, efficiency, price, and design. Skip the research hassle and find your perfect ride in just a few clicks!</p>
+                        <a class="nav-link" href="#" target="_blank">See Project</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <h2 id="habilidades">My Skills</h2>
+        <section >
+            <div class="lang">
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+            </ul>
+            </div>
+        </section>
+            <h2 id="contacto">Contact me</h2>
+        <section>
+            <form class="formulario" action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Ingresa tu nombre">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Ingresa tu contraseña">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Dejame aqui tu mensaje y te responder tan pronto como se posible."></textarea>
+
+                <button class="button" type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Duwar Alexander Rippe Amaya. All rights reserved.</p>
+        <a href="https://github.com/Duwar" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/duwar-rippe-00317ab9/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
